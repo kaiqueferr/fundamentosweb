@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
     <link rel="icon" type="image/png" href="assets/images/goku_ico.png">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfólio</title>
+
 <body>
+
     <nav>
-        <div>
-            <img src="assets/images/goku_ico.png" alt="">
-            <span>Portfólio</span>
+        <div class="logo">
+            <img class="icone" src="assets/images/goku_ico.png" alt="Logo">
+            <span class="titulo">Portfólio</span>
         </div>
+
         <ul>
-            <a href="/"><li>Home</li></a>
-            <a href="contato.html"><li>Contato</li></a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
-    <main>
+
+    <main class="contato">
         <section class="formulario">
             <h3>Contato</h2>
                 <form>
@@ -31,7 +36,7 @@
 
                     <div class="campos-form">
                         <label for="email">E-mail:</label>
-                        <input  id="email" name="email" type="text"
+                        <input id="email" name="email" type="text"
                             placeholder="Insira o seu e-mail">
                         <div id="txtEmail"></div>
                     </div>
@@ -46,6 +51,8 @@
                     <button type="button">
                         Enviar
                     </button>
+
+
                 </form>
         </section>
 
@@ -69,18 +76,21 @@
             </div>
         </section>
     </main>
+
     <footer>
-        <div >
-            <a href="linkedin.com">
-                <img src="assets/images/linkedin.png" alt="">
+        <div class="redes_sociais">
+            <a href="http://linkedin.com" target="_blank">
+                <img class="icons" src="assets/images/linkedin.png" alt="Linkedin">
             </a>
-            <a href="github.com">
-                <img src="assets/images/github.png" alt="">
+            <a href="http://github.com" target="_blank">
+                <img class="icons" src="assets/images/github.png" alt="Github">
             </a>
-            <a href="instagram.com">
-                <img src="assets/images/instagram.png" alt="">
+            <a href="http://instagram.com" target="_blank">
+                <img class="icons" src="assets/images/instagram.png" alt="Instagram">
             </a>
         </div>
+        <p class="by"> &copy; Copyright 2023 Kaique Ferreira</p>
     </footer>
 </body>
+
 </html>
